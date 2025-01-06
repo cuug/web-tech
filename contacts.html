@@ -1,91 +1,59 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Контакты - Тюменский банк</title>
+  <title>Document</title>
 </head>
-
 <body>
   <header>
-    <div class="header-img">
-      <img src="images/bank.jpg" width="50" height="50" alt="Логотип банка">
-    </div>
-    <nav class="navigation">
-      <a href="index.html">Главная</a>
-      <a href="contacts.html">Контакты</a>
+    <!--Изображение храниться в папке images-->
+    <img src="./images/bank.jpg" alt="bank.jpg" height="75">
+    <nav>
+      <a href="./index.html">Main</a>
+      <a href="./contacts.html">Contacs</a>
     </nav>
-    <h1>Тюменский банк</h1>
   </header>
-
   <main>
-    <h2>Свяжитесь с нами!</h2>
-    <p>Прямо сейчас!</p>
-    <img src="images/phone.jpg" width="40" alt="Контактное изображение">
-
-    <div class="contact-details">
-      <h4>Адрес</h4>
-      <p>г. Тюмень, ул. Центральная, 5</p>
-
-      <h4>Телефон</h4>
-      <ul>
-        <li>8 952 850 15 23</li>
-        <li>8 945 123 45 62</li>
-      </ul>
-
-      <h4>Онлайн-сервисы</h4>
-      <ul>
-        <li><a href="https://tyumen.bank.ru">Наш сайт</a></li>
-        <li><a href="mailto:tyumen.bank@utmn.ru">Почта: tyumen.bank@utmn.ru</a></li>
-      </ul>
-    </div>
-
-    <h4>Пришлите нам сообщение</h4>
+    <h2>Contact Us</h2>
+    <p>On this page you can contact us</p>
+    <img src="./images/phone.jpg" alt="phone.jpg" height="75">
+    <h4>Address</h4>
+    <p>Tyumen, Perekopska street 15A</p>
+    <h4>Phone</h4>
+    <ul>
+      <li>8922145152</li>
+      <li>8932529518</li>
+    </ul>
+    <h4>Online service</h4>
+    <ul>
+      <li>
+        <a href="index.html">tyumenbank.com</a>
+      </li>
+      <li>
+        <a href="tyumen.bank@utmn.ru">tyumen.bank@utmn.ru</a>
+      </li>
+    </ul>
+    <h4>Send us message</h4>
     <form action="#" method="post">
-      <label for="name">Full Name (полное имя):</label>
-      <br>
-      <input type="text" id="name" name="name">
-      <br>
-      <br>
 
-      <label for="email">Email:</label>
-      <br>
-      <input type="email" id="email" name="email">
-      <br>
-      <br>
+      <p>
+        <label for="Full Name">Full Name:</label>
+        <input type="text" name="name" id="name">
+      </p>
 
-      <label for="message">Message (сообщение):</label>
-      <br>
-      <textarea id="message" name="message" rows="4" cols="50"></textarea>
-      <br>
-      <br>
+      <p>
+        <label for="Email">Email:</label>
+        <input type="email" name="email" id="email">
+      </p>
+      
+      <p>
+        <label for="Message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+      </p>
 
-      <button type="submit">Отправить</button>
+      <button type="submit">Submit</button>
     </form>
-    </div>
-
-    <hr>
-    <div class="footer">
-      <div class="header">
-        <h3>ООО "Тюменский банк"</h3>
-        <p>
-          ИНН: 9794841914
-          <br> ОГРН: 4791513635733
-        </p>
-      </div>
-      <hr>
-      <div class="contact-list">
-        <p>Наши контакты</p>
-        <ul>
-          <li>Номер телефона: 8 952 850 15 23</li>
-          <li>Адрес электронной почты: tyumen.bank@utmn.ru</li>
-        </ul>
-        <p>
-          <i>Все права защищены</i>
-        </p>
-      </div>
-    </div>
+  </main>
 </body>
-
 </html>
