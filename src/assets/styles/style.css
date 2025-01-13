@@ -9,3 +9,118 @@
 .test {
     color: red !important;
 }
+
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Lexend', sans-serif;
+    color: #1F3F68;
+}
+
+.header1 {
+    font-size: 64px;
+    font-family: 'Lilita one', sans-serif;
+    color: #1F3F68;
+}
+
+.header2 {
+    font-weight: 500;
+    font-size: 44px;
+    font-family: 'Lilita one', sans-serif;
+    text-align: center;
+}
+
+.header3 {
+    font-size: 36px;
+    font-family: 'Lilita one', sans-serif;
+    text-align: center;
+}
+
+.header4 {
+    font-size: 20px;
+    font-family: 'Lilita one', sans-serif;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.input-area {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.send-button {
+    border:none;
+    background: linear-gradient(0.25turn,#5079F2, #872ACE);
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Lilita one', 'Arial', sans-serif;
+}
+
+form {
+    background: url(../img/contacts-background.webp);
+}
+
+/* Хлебные крошки */
+.breadcrumbs * {
+  box-sizing: border-box;
+  margin: 0;  
+  padding: 0
+}  
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  counter-reset: flag;  
+  margin: 20px;
+}
+.breadcrumbs a,
+.breadcrumbs span {
+  background: linear-gradient(#ffffff, #008053);;
+  color: black;
+  transition: all 0.5s;
+  text-decoration: none;
+  outline: none;
+  font-size: 12px;
+  line-height: 36px;
+  padding: 0 10px 0 60px;
+  position: relative;
+  font-size: 13px;
+  font-family: 'Lexend', sans-serif;  
+  border: 2px solid #add6f7;
+  border-right: 0;
+  margin: 2px 0;  
+  border-radius: 4px 0 0 4px;
+}
+.breadcrumbs a:first-child {
+  padding-left: 46px;
+}
+.breadcrumbs a:first-child:before {
+  left: 14px;
+}
+
+.breadcrumbs a:after,
+.breadcrumbs span:after {
+  content: '';
+  position: absolute;
+  top: 0;  
+  right: -38px;
+  width: 58px;  
+  height: 36px;
+  transform: scale(0.61) rotate(90deg);
+  z-index: 1;
+  box-shadow: 0px -2px 2px 2px #add6f7;
+  border-radius: 50px 50px 0 0;
+  background: linear-gradient(00.25turn, #ffffff, #008053);
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs span:hover {
+  color: #fff;
+}

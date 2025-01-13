@@ -1,23 +1,55 @@
 @font-face {
     font-family: "Inter";
     src: local('Inter'), local('Inter-Bold'), local('Inter Bold'),
-         url("/static/fonts/Inter-Bold.ttf") format("truetype"),
-         url("/static/fonts/Inter-Bold.woff2") format("woff");
+         url("../../../static/fonts/Inter-Bold.ttf") format("truetype"),
+         url("../../../static/fonts/Inter-Bold.woff2") format("woff");
     font-weight: 700;
 }
 
 @font-face {
     font-family: "Inter";
     src: local('Inter'), local('Inter-Medium'), local('Inter Medium'),
-         url("/static/fonts/Inter-Medium.ttf") format("truetype"),
-         url("/static/fonts/Inter-Medium.woff2") format("woff");
+         url("../../../static/fonts/Inter-Medium.ttf") format("truetype"),
+         url("../../../static/fonts/Inter-Medium.woff2") format("woff");
     font-weight: 500;
 }
 
 @font-face {
     font-family: "Inter";
     src: local('Inter'), local('Inter-Regular'), local('Inter Regular'),
-         url("/static/fonts/Inter-Regular.ttf") format("truetype"),
-         url("/static/fonts/Inter-Regular.woff2") format("woff");
+         url("../../../static/fonts/Inter-Regular.ttf") format("truetype"),
+         url("../../../static/fonts/Inter-Regular.woff2") format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Lexend";
+    src: local('Lexend'), local('Lexend-Bold'), local('Lexend Bold'),
+        url("../../../static/fonts/Lexend-Bold.ttf"), format("truetype"),
+        url("../../../static/fonts/Lexend-Bold.woff2") format("woff");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Lexend";
+    src: local('Lexend'), local('Lexend-Medium'), local('Lexend Medium'),
+        url("../../../static/fonts/Lexend-Medium.ttf"), format("truetype"),
+        url("../../../static/fonts/Lexend-Medium.woff2") format("woff");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Lexend";
+    src: local('Lexend'), local('Lexend-Regular'), local('Lexend Regular'),
+        url('../../../static/fonts/Lexend-Regular.ttf'), format("truetype"),
+        url("../../../static/fonts/Lexend-Regular.woff2") format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Lilita One";
+    src: local('Lilita One Regular'), local('Lilita-One-Regular'), local('Lilita'),
+        url("../../../static/fonts/Lilita\ One\ Regular.ttf"), format('truetype'),
+        url("../../../static/fonts/Lilita\ One\ Regular.woff2"), format('woff');
     font-weight: 400;
 }
