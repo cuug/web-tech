@@ -8,52 +8,84 @@
 </head>
 <body>
   <header>
-    <!--Изображение храниться в папке images-->
-    <img src="./src/assets/img/bank.jpg" alt="bank.jpg" height="75">
+    <div class="logo">
+      <img src="./src/assets/img/bank.jpg" alt="bank.jpg" height="75">
+    </div>
     <nav class="breadcrumbs">
       <a href="./index.html">Main</a>
       <a href="./contacts.html">Contacs</a>
     </nav>
+    <hr>
   </header>
+
   <main>
-    <h2 class="header2">Contact Us</h2>
-    <p class="paragraph">On this page you can contact us</p>
-    <img src="./src/assets/img/phone.jpg" alt="phone.jpg" height="75">
-    <h4 class="header4">Address</h4>
-    <p class="paragraph">Tyumen, Perekopska street 15A</p>
-    <h4 class="header4">Phone</h4>
-    <ul>
-      <li>8922145152</li>
-      <li>8932529518</li>
-    </ul>
-    <h4 class="header4">Online service</h4>
-    <ul>
-      <li>
-        <a href="index.html">tyumenbank.com</a>
-      </li>
-      <li>
-        <a href="tyumen.bank@utmn.ru">tyumen.bank@utmn.ru</a>
-      </li>
-    </ul>
-    <h4 class="header4">Send us message</h4>
-    <form action="#" method="post">
+    <section class="contacs-info">
+      <section class="contacts-intro">
+        <h2 class="header2">Contact Us</h2>
+        <p class="paragraph">On this page you can contact us</p>
 
-      <p class="paragraph">
-        <label for="Full Name">Full Name:</label>
-        <input class="input-area" type="text" name="name" id="name">
-      </p>
+        <section class="phone-image">
+          <img src="./src/assets/img/phone.jpg" alt="phone.jpg" height="75">
+        </section>
+      </section>
+      <hr>
 
-      <p class="paragraph">
-        <label for="Email">Email:</label>
-        <input class="input-area" type="email" name="email" id="email">
-      </p>
-      
-      <p class="paragraph">
-        <label for="Message">Message:</label>
-        <textarea class="input-area" id="message" name="message" rows="4" cols="50"></textarea>
-      </p>
+      <section class="contacs-address">
+        <h4 class="header4">Address</h4>
+        <p class="paragraph">Tyumen, Perekopska street 15A</p>
+      </section>
+      <hr>
 
-      <button class="send-button" type="submit">Submit</button>
+      <section class="contacts-phone">
+        <h4 class="header4">Phone</h4>
+        <ul>
+          <li>8922145152</li>
+          <li>8932529518</li>
+        </ul>
+      </section>
+    </section>
+    <hr>
+
+    <section class="online-service">
+      <h4 class="header4">Online service</h4>
+      <ul>
+        <li>
+          <a href="index.html">tyumenbank.com</a>
+        </li>
+        <li>
+          <a href="tyumen.bank@utmn.ru">tyumen.bank@utmn.ru</a>
+        </li>
+      </ul>
+    </section>
+    <hr>
+
+    <section class="contacts-form">
+      <h4 class="header4">Send us message</h4>
+
+      <form action="#" method="post">
+        <section class="input-full-name">
+          <p class="paragraph">
+              <label for="Full Name">Full Name:</label>
+              <input class="input-area" type="text" name="name" id="name">
+          </p>
+        </section>
+        
+        <section class="input-email">
+          <p class="paragraph">
+            <label for="Email">Email:</label>
+            <input class="input-area" type="email" name="email" id="email">
+          </p>
+        </section>
+        
+        <section class="input-message">
+          <p class="paragraph">
+            <label for="Message">Message:</label>
+            <textarea class="input-area" id="message" name="message" rows="4" cols="50"></textarea>
+          </p>
+        </section>
+
+        <button class="send-button" type="submit">Submit</button>
+      </section>
     </form>
   </main>
 </body>
